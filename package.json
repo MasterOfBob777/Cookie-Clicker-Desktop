@@ -13,15 +13,15 @@
   },
   "keywords": [],
   "author": {
-    "name": "MasterOfBob777",
+    "name": "MasterOfBob777 & Dashnet",
     "email": "fake.fake@dummy.com"
   },
   "license": "MIT",
   "config": {
     "forge": {
       "packagerConfig": {
-		"icon": "src/icon/icon"
-	  },
+        "icon": "src/icon/icon"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
