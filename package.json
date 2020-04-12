@@ -3,7 +3,7 @@
   "productName": "Cookie Clicker Desktop",
   "version": "1.0.0",
   "description": "Cookie Clicker for desktops.",
-  "main": "ctr/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -13,27 +13,26 @@
   },
   "keywords": [],
   "author": {
-    "name": "Dashnet",
+    "name": "MasterOfBob777",
     "email": "fake.fake@dummy.com"
   },
   "license": "MIT",
   "config": {
     "forge": {
       "packagerConfig": {
-        "icon": "src/icon/icon"
-      },
+		"icon": "src/icon/icon"
+	  },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "cookie_clicker_desktop"
+            "name": "cookieclicker_desktop"
           }
         },
         {
           "name": "@electron-forge/maker-zip",
           "platforms": [
-            "darwin",
-            "linux"
+            "darwin"
           ]
         },
         {
@@ -56,6 +55,6 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.50",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.50",
     "@electron-forge/maker-zip": "^6.0.0-beta.50",
-    "electron-prebuilt-compile": "8.2.0"
+    "electron": "8.2.1"
   }
 }
